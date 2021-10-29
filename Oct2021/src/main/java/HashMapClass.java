@@ -4,8 +4,9 @@ public class HashMapClass {
     public static void main(String[] args) {
         HashMap<String, String> capitalCities = new HashMap<String, String>();
         capitalCities.put("England","London");
-        capitalCities.put("USA","California");
-        capitalCities.put("India","Gujarat");
+        capitalCities.put("USA","Washington DC");
+        capitalCities.put("India","Delhi");
         System.out.println(capitalCities);
+        System.out.println(capitalCities.get("England"));
     }
 }

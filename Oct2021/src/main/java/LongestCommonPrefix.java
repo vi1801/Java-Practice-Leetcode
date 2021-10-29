@@ -26,6 +26,6 @@ public class LongestCommonPrefix{
     public static void main(String[] args) {
         LongestCommonPrefix lcp = new LongestCommonPrefix();
         String[] input = {"apple","app","application"};
-        System.out.println("The longest common prefix is: "+ lcp.LongestCommonPrefix(input));
+        System.out.println("The longest common prefix is: "+ lcp.LongestCommonPrefix(input) + input.length);
     }
 }

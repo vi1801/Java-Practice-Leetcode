@@ -8,9 +8,10 @@ public class HashMapClass {
         capitalCities.put("India","Delhi");
         System.out.println(capitalCities);
         System.out.println(capitalCities.get("England"));
-        capitalCities.remove("England");
+        //capitalCities.remove("England");
         System.out.println(capitalCities);
-        capitalCities.clear();
+        //capitalCities.clear();
         System.out.println(capitalCities);
+        System.out.println(capitalCities.size());
     }
 }

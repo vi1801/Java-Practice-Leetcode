@@ -25,5 +25,6 @@ public class HashMapClass {
         {
             System.out.println("key: " + i + " value: " + capitalCities.get(i));
         }
+
     }
 }

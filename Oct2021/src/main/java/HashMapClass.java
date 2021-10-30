@@ -13,5 +13,17 @@ public class HashMapClass {
         //capitalCities.clear();
         System.out.println(capitalCities);
         System.out.println(capitalCities.size());
+        for(String i: capitalCities.keySet())
+        {
+            System.out.println(i);
+        }
+        for(String j: capitalCities.values())
+        {
+            System.out.println(j);
+        }
+        for (String i : capitalCities.keySet())
+        {
+            System.out.println("key: " + i + " value: " + capitalCities.get(i));
+        }
     }
 }

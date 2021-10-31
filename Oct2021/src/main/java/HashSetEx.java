@@ -11,5 +11,10 @@ public class HashSetEx {
         System.out.println(cars);
         cars.contains("Mazda");
         cars.remove("BMW");
+        System.out.println(cars.size());
+        for (String i : cars) {
+            System.out.println(i);
+        }
+
     }
 }
